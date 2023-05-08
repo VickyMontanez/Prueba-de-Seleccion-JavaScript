@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "starjedi";
+    src: url(./fonts/STJEDISE.TTF);
+}
+body{
+    display: flex;
+    background-image: url(./img/fondo.jpg);
+    justify-content: center;
+    padding: 100px 40px 40px 40px;
+}
+
+nav{
+    background-color: #2b926296;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 95px;
+}
+
+nav div{
+    display: flex;
+    font-family: "starjedi";
+    font-size: 30px;
+    align-items: center;
+}
+
+nav .img img{
+    width: 90px;
+    height: 90px;
+}
+
+nav .options{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+my-form{
+    font-family: "starjedi";
+}
