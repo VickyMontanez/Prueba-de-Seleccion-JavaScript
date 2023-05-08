@@ -10,7 +10,7 @@ body{
 }
 
 nav{
-    background-color: #2b926296;
+    background-color: #2a6348d8;
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -32,7 +32,10 @@ nav .img img{
     width: 90px;
     height: 90px;
 }
-
+nav .img p:hover{
+    text-shadow: 2px 2px #c2b118;
+    transition: 1s ease-in-out;
+}
 nav .options{
     display: flex;
     justify-content: space-around;
@@ -51,3 +54,4 @@ my-form{
     font-family: "starjedi";
     letter-spacing: 2px;
 }
+
