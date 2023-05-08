@@ -1,22 +1,93 @@
 {
-    "recultas":{
-        "nombre":"Vicky Montañez",
-        "edad": 17
+  "reclutas": [
+    {
+      "nombre": "Vicky",
+      "edad": 17,
+      "telefono": 3224543241,
+      "email": "vmontanez707@gmail.com",
+      "direccion": "Cll 65 #13-36",
+      "dateBirth": "07/03/2005",
+      "numId": 1095792883,
+      "dateIng": "01/22/2023",
+      "idTeam": 1,
+      "id": 1
     },
-
-    "team":{
-
+    {
+      "nombre": "Miller",
+      "edad": 18,
+      "telefono": 3022246781,
+      "email": "millerk@gmail.com",
+      "direccion": "Cll 88 #130-96",
+      "dateBirth": "09/18/2004",
+      "numId": 1877766555,
+      "dateIng": "01/22/2023",
+      "idTeam": 1,
+      "id": 2
     },
-
-    "skill":{
-
-    },
-
-    "modulo_skill":{
-
-    },
-
-    "evaluacion":{
-        
+    {
+      "nombre": "Diego",
+      "edad": 16,
+      "telefono": 30288893,
+      "email": "diego@gmail.com",
+      "direccion": "Cll 20 #17-96",
+      "dateBirth": "12/04/2006",
+      "numId": 1877766555,
+      "dateIng": "01/22/2023",
+      "idTeam": 1,
+      "id": 3
     }
+  ],
+  "team": [
+    {
+      "nombre": "Sputnik",
+      "trainer": "Miguel Castro",
+      "id": 1
+    },
+    {
+      "nombre": "Armetis",
+      "trainer": "Vermet",
+      "id": 2
+    },
+    {
+      "nombre": "Apolo",
+      "trainer": "Jholver",
+      "id": 3
+    }
+  ],
+  "skill": [
+    {
+      "nombre": "Algebra booleana",
+      "id": 1
+    },
+    {
+      "nombre": "Resolución de problemas",
+      "id": 2
+    },
+    {
+      "nombre": "Autogestion",
+      "id": 3
+    },
+    {
+      "nombre": "Python",
+      "id": 4
+    },
+    {
+      "nombre": "Java",
+      "id": 5
+    },
+    {
+      "nombre": "JavaScript",
+      "id": 6
+    },
+    {
+      "nombre": "Html",
+      "id": 7
+    },
+    {
+      "nombre": "Php",
+      "id": 8
+    }
+  ],
+  "modulo_skill": [],
+  "evaluacion": []
 }
