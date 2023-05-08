@@ -1,0 +1,165 @@
+<form class="form" id="reclutas">
+    <fieldset>
+        <legend>Datos del recluta</legend>
+        <div>
+            <p>
+                <label for="">Nombre:</label>
+                <input type="text" placeholder="Ingresa el nombre del recluta">
+            </p>
+            <p>
+                <label for="">Edad:</label>
+                <input type="text" placeholder="Ingresa la edad del recluta">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">Telefono:</label>
+                <input type="number" placeholder="Ingresa el telefono del recluta">
+            </p>
+            <p>
+                <label for="">Email</label>
+                <input type="text" placeholder="Ingresa el email del recluta">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">Dirección:</label>
+                <input type="text" placeholder="Ingresa la direccion del recluta">
+            </p>
+            <p>
+                <label for="">Fecha de nacimiento:</label>
+                <input type="date">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">Número de identificación:</label>
+                <input type="number" placeholder="Ingresa el numero de identificación">
+            </p>
+            <p>
+                <label for="">Fecha de Ingreso</label>
+                <input type="date">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">Selecciona el Team Peterneciente</label>
+                <select name="" id="">
+                    <option value="none">Selecciona el team</option>
+                    <option value="1">Team Sputnik</option>
+                    <option value="2">Team Artemis</option>
+                    <option value="3">Team Apolo</option>
+                </select>
+            </p>
+            <button type="submit">Guardar</button>
+        </div>
+    </fieldset>
+</form>
+
+<form class="form" id="team">
+    <fieldset>
+        <legend>Datos del team</legend>
+        <div>
+            <p>
+                <label for="">Nombre del Team:</label>
+                <input type="text" placeholder="Ingresa el nombre del team">
+            </p>
+            <p>
+                <label for="">Trainer del Team</label>
+                <input type="text" placeholder="Ingresa el trainer del team">
+            </p>
+            <p>
+                <button  type="submit">Guardar</button>
+            </p>
+        </div>
+    </fieldset>
+</form>
+
+<form class="form" id="skills">
+    <fieldset>
+        <legend>Datos de skills</legend>
+        <div>        <p>
+            <label for="">Nombre del Skill:</label>
+            <input type="text" placeholder="Ingresa el skills">
+        </p>
+        <button  type="submit">Guardar</button></div>
+    </fieldset>
+</form>
+
+<form class="form" id="modulos">
+    <fieldset>
+        <legend>Datos de los módulos</legend>
+        <div>
+            <p>
+                <label for="">Nombre del Modulo:</label>
+                <input type="text" placeholder="Ingresa el modulo">
+            </p>
+            <button  type="submit">Guardar</button>
+        </div>
+    </fieldset>
+</form>
+
+<form class="form" id="evaluacion">
+    <fieldset>
+        <legend>Evaluación</legend>
+        <div>
+            <p>
+                <label for="">Nombre del Recluta:</label>
+                <input type="text" placeholder="Ingresa el nombre del recluta">
+            </p>
+            <p>
+                <label for="">Skill:</label>
+                <input type="text" placeholder="Ingresa skill evaluada">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">Nota:</label>
+                <input type="text" placeholder="Ingresa la nota del recluta">
+            </p>
+            <button  type="submit">Guardar</button>
+        </div>
+    </fieldset>
+</form>
+
+<style>
+
+    form{
+        background-color: #a3b6eca6;
+        border-radius: 12px;
+        padding: 25px;
+        margin: 30px;
+        width: 1100px;
+    }
+
+    fieldset{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    legend{
+        letter-spacing: 5px;
+    }
+    button{
+        background-color: #276e4df1;
+        border-color: #181D31;
+        border-radius: 15px;
+        width: 300px;
+        height: 40px;
+        font-family: "starjedi";
+        letter-spacing: 5px;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    input{
+        width: 300px;
+        height: 30px;
+        border-radius: 3px;
+    }
+</style>
